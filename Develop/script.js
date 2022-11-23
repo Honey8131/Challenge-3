@@ -15,8 +15,8 @@ var specialChar = ['!','#','$','%','^','&','*','(',')','/','?'];
 //   a. Make sure password is within correct range 
 function getPasswordCriteria() {
   var userChoseLength = prompt("How long do you want your password to be?");
-    while ((userChoseLength < 8) || (userChoseLength > 126)) {
-    userChoseLength = prompt("Please enter length between 8 and 126");}
+    while ((userChoseLength < 8) || (userChoseLength > 128)) {
+    userChoseLength = prompt("Please enter length between 8 and 128");}
   
   var userChoseNumbers = confirm("Do you want numbers in your password?");
   var userChoseUpperCase = confirm("Do you want uppercase letters in your password?");
