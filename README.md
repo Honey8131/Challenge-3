@@ -1,6 +1,8 @@
 # Password Generator
 ![The Password Generator application.](./challenge3screenshot.png)
 
+**Deployed Application**: https://honey8131.github.io/Password-Generator/
+
 I have modified the starter code to an application that allows users to generate random passwords based on the criteria they have selected.
 
 
